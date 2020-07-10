@@ -7,6 +7,8 @@ public class Moveable : MonoBehaviour
     public LayerMask SolidLayers;
     public float radius;
 
+    public float Speed { get; set; }
+
     public void Move(Vector2 delta)
     {
         transform.position += (Vector3)delta;
@@ -23,6 +25,8 @@ public class Moveable : MonoBehaviour
         distance = DistanceInDirection(Vector2.left);
         if (distance < radius * 2 && distance > .1f)
             transform.position += new Vector3(Mathf.Min(radius * 2 - distance, .1f), 0f);
+
+        Speed = delta.magnitude * 60f;
     }
 
     public float DistanceInDirection(Vector2 direction)
