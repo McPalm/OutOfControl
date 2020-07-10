@@ -17,5 +17,11 @@ public class CharacterAnimator : MonoBehaviour
     void Update()
     {
         Animator.SetFloat("Speed", Moveable.Speed);
+        if (Moveable.Speed > 0f)
+        {
+            float y = Moveable.Direction.y < -Mathf.Abs(Moveable.Direction.x) ? -1 : 0;
+            y = Moveable.Direction.y > Mathf.Abs(Moveable.Direction.x) ? 1 : y;
+            Animator.SetFloat("Y", y);
+        }
     }
 }

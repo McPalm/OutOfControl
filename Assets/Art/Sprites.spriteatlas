@@ -43,7 +43,7 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: 800bc3da2125a284ca823e42ef289ed8, type: 3}
-    totalSpriteSurfaceArea: 1338
+    totalSpriteSurfaceArea: 1493
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
@@ -53,6 +53,8 @@ SpriteAtlas:
   - {fileID: -6337999885091750218, guid: ee79dca615cb4204982d27b91c08fd49, type: 3}
   - {fileID: 4519664136019108208, guid: ee79dca615cb4204982d27b91c08fd49, type: 3}
   - {fileID: 8074338581418846440, guid: ee79dca615cb4204982d27b91c08fd49, type: 3}
+  - {fileID: 296479662565582937, guid: 2c64d4fb05330af42b51d72a7d7ae1ca, type: 3}
+  - {fileID: -4189957787168593601, guid: 2c64d4fb05330af42b51d72a7d7ae1ca, type: 3}
   - {fileID: 3604182692263377810, guid: 2c64d4fb05330af42b51d72a7d7ae1ca, type: 3}
   - {fileID: 7672759098259192623, guid: 2c64d4fb05330af42b51d72a7d7ae1ca, type: 3}
   m_PackedSpriteNamesToIndex:
@@ -60,6 +62,8 @@ SpriteAtlas:
   - Terrain_2
   - Terrain_1
   - Terrain_0
+  - Horse_3
+  - Horse_2
   - Horse_1
   - Horse_0
   m_Tag: Sprites

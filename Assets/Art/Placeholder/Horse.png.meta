@@ -8,6 +8,12 @@ TextureImporter:
   - first:
       213: 3604182692263377810
     second: Horse_1
+  - first:
+      213: -4189957787168593601
+    second: Horse_2
+  - first:
+      213: 296479662565582937
+    second: Horse_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -115,7 +121,7 @@ TextureImporter:
         width: 14
         height: 13
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -136,7 +142,7 @@ TextureImporter:
         width: 11
         height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -144,6 +150,48 @@ TextureImporter:
       bones: []
       spriteID: 29b38f51011a40230800000000000000
       internalID: 3604182692263377810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_2
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 96
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f392fe787974ad5c0800000000000000
+      internalID: -4189957787168593601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Horse_3
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 80
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 958695aaeae4d1400800000000000000
+      internalID: 296479662565582937
       vertices: []
       indices: 
       edges: []
