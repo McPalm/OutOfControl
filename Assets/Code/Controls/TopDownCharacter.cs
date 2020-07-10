@@ -2,14 +2,17 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TopDownCharacter : MonoBehaviour , CharacterInput.IControllable
+[RequireComponent(typeof(Moveable))]
+public class TopDownCharacter : MonoBehaviour, CharacterInput.IControllable
 {
+
 
     public InputToken InputToken { get; set; }
 
     // Update is called once per frame
     void FixedUpdate()
     {
-        transform.position += (Vector3)InputToken.Direction * .1f;
+        GetComponent<Moveable>().Move(InputToken.Direction * .1f);
     }
+
 }
