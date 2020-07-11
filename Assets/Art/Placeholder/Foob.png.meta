@@ -8,6 +8,9 @@ TextureImporter:
   - first:
       213: 6756196129819434895
     second: Foob_1
+  - first:
+      213: 157417860977249259
+    second: Crate
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -199,7 +202,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -220,7 +223,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -228,6 +231,27 @@ TextureImporter:
       bones: []
       spriteID: f8f91ce8594d2cd50800000000000000
       internalID: 6756196129819434895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crate
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 64
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bebc9d4e5b24f2200800000000000000
+      internalID: 157417860977249259
       vertices: []
       indices: 
       edges: []

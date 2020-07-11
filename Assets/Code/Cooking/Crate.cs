@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Carry : MonoBehaviour
+public class Crate : MonoBehaviour
 {
-    // no code required, wtf
+    public Food FoodPrefab;
 }

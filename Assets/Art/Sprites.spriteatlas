@@ -43,7 +43,7 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: 800bc3da2125a284ca823e42ef289ed8, type: 3}
-    totalSpriteSurfaceArea: 69173
+    totalSpriteSurfaceArea: 69369
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
@@ -55,6 +55,7 @@ SpriteAtlas:
   - {fileID: 4519664136019108208, guid: ee79dca615cb4204982d27b91c08fd49, type: 3}
   - {fileID: 8074338581418846440, guid: ee79dca615cb4204982d27b91c08fd49, type: 3}
   - {fileID: -1238933728272178944, guid: ee79dca615cb4204982d27b91c08fd49, type: 3}
+  - {fileID: 157417860977249259, guid: 5900eaaa74222b741ad19aeebb689a16, type: 3}
   - {fileID: -6842517687483594, guid: 5900eaaa74222b741ad19aeebb689a16, type: 3}
   - {fileID: 6756196129819434895, guid: 5900eaaa74222b741ad19aeebb689a16, type: 3}
   - {fileID: -5779282676337348671, guid: 5900eaaa74222b741ad19aeebb689a16, type: 3}
@@ -73,6 +74,7 @@ SpriteAtlas:
   - Terrain_1
   - Terrain_0
   - Terrain_4
+  - Crate
   - Foob_0
   - Foob_1
   - Terrain_3
