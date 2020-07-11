@@ -4,5 +4,5 @@ using UnityEngine;
 
 public class Food : MonoBehaviour
 {
-    // no code required, wtf
+    public string Name;
 }

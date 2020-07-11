@@ -4,8 +4,11 @@ using UnityEngine;
 
 public class RobotAI : MonoBehaviour
 {
-    public float speed;
+    public float walkSpeed;
     public float thinktime;
+
+    public Moveable Moveable;
+    public Chef Chef { get; set; }
 
     public Crate[] FoodSources;
     public Counter[] CounterTops;
@@ -19,6 +22,7 @@ public class RobotAI : MonoBehaviour
     void Start()
     {
         StartCoroutine(AIRoutine());
+        Chef = GetComponent<Chef>();
     }
 
     public IEnumerator AIRoutine()
@@ -44,12 +48,12 @@ public class RobotAI : MonoBehaviour
             counter.Place(Held);
         else
         {
-            Held.transform.SetParent(null);
-            Held.transform.position = transform.position;
-            Held.GetComponent<BoxCollider2D>().enabled = true;
+            var dish = Chef.DetermineResult(counter.Held, Held);
+            Destroy(Held.gameObject);
+            Destroy(counter.Held.gameObject);
+            counter.Place(Instantiate(dish));
         }
         Held = null;
-
     }
 
     private void GrabFrom(Crate crate)
@@ -66,7 +70,7 @@ public class RobotAI : MonoBehaviour
         {
             yield return new WaitForFixedUpdate();
             var direction = (position - (Vector2)transform.position).normalized;
-            transform.position += (Vector3)(direction * speed * Time.fixedDeltaTime);
+            Moveable.Move((direction * walkSpeed * Time.fixedDeltaTime));
         }
 
     }

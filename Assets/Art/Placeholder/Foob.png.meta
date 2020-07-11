@@ -11,6 +11,9 @@ TextureImporter:
   - first:
       213: 157417860977249259
     second: Crate
+  - first:
+      213: -2129941121592778455
+    second: Spoils
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -244,7 +247,7 @@ TextureImporter:
         width: 14
         height: 14
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -252,6 +255,27 @@ TextureImporter:
       bones: []
       spriteID: bebc9d4e5b24f2200800000000000000
       internalID: 157417860977249259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spoils
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 64
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92127f6b5dde072e0800000000000000
+      internalID: -2129941121592778455
       vertices: []
       indices: 
       edges: []
