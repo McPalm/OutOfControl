@@ -16,6 +16,8 @@ public class LoseCondition : MonoBehaviour
 
     public Slider Slider;
 
+    static public int Danger;
+
     // Update is called once per frame
     void Update()
     {
@@ -26,7 +28,7 @@ public class LoseCondition : MonoBehaviour
             if (time < 0f)
                 Lose();
             Slider.value = time;
-            MusicMixer.badness = time > 15f ? 1 : 2;
+            Danger = time > 15f ? 1 : 2;
         }
         else
         {
@@ -34,7 +36,7 @@ public class LoseCondition : MonoBehaviour
             if (time < 10f)
                 time = 10f;
             Slider.maxValue = time;
-            MusicMixer.badness = 0;
+            Danger = 0;
         }
     }
 
@@ -53,6 +55,6 @@ public class LoseCondition : MonoBehaviour
     {
         yield return new WaitForSeconds(5f);
         SceneManager.LoadScene(0);
-        MusicMixer.badness = 0;
+        Danger = 0;
     }
 }

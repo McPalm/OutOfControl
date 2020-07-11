@@ -9,8 +9,6 @@ public class MusicMixer : MonoBehaviour
     public AudioSource Bad;
     public AudioSource Dire;
 
-    static public int badness = 0;
-
     public AudioClip LoseJingle;
 
     void Start()
@@ -25,7 +23,7 @@ public class MusicMixer : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        switch (badness)
+        switch (LoseCondition.Danger)
         {
             case 0:
                 Normal.volume = Mathf.Clamp01(Normal.volume + Time.deltaTime);
