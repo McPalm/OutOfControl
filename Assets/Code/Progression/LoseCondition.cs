@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using TMPro;
 using UnityEngine.SceneManagement;
 
@@ -9,10 +10,11 @@ public class LoseCondition : MonoBehaviour
 
     public GameObject DebtWarning;
 
-    public TextMeshProUGUI CountDown;
+    public GameObject GameOverSplash;
 
     float time = 60f;
-    
+
+    public Slider Slider;
 
     // Update is called once per frame
     void Update()
@@ -20,16 +22,17 @@ public class LoseCondition : MonoBehaviour
         if(Money.Instance.wallet < 0)
         {
             time -= Time.deltaTime;
-            CountDown.text = $"{time:0}";
             DebtWarning.SetActive(true);
             if (time < 0f)
                 Lose();
+            Slider.value = time;
         }
         else
         {
             DebtWarning.SetActive(false);
             if (time < 10f)
                 time = 10f;
+            Slider.maxValue = time;
         }
     }
 
@@ -37,7 +40,8 @@ public class LoseCondition : MonoBehaviour
     {
         enabled = false;
         Debug.Log("You lose, good day sir");
-        CountDown.text = "You lose, good day sir";
+        GameOverSplash.SetActive(true);
+        FindObjectOfType<CharacterInput>().enabled = false;
         StartCoroutine(LoseRoutine());
     }
 

@@ -43,7 +43,7 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: 800bc3da2125a284ca823e42ef289ed8, type: 3}
-    totalSpriteSurfaceArea: 103289
+    totalSpriteSurfaceArea: 114553
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
@@ -62,9 +62,20 @@ SpriteAtlas:
   - {fileID: -4637172546458061636, guid: ee79dca615cb4204982d27b91c08fd49, type: 3}
   - {fileID: -1238933728272178944, guid: ee79dca615cb4204982d27b91c08fd49, type: 3}
   - {fileID: 21300000, guid: 0c43d537bf611574cabe5552995b1a11, type: 3}
+  - {fileID: 4145263132057559093, guid: 0d003d789ad288f4a93c57b53dda22f0, type: 3}
+  - {fileID: 8261136495816926602, guid: 0d003d789ad288f4a93c57b53dda22f0, type: 3}
+  - {fileID: 3356538784510514710, guid: 0d003d789ad288f4a93c57b53dda22f0, type: 3}
+  - {fileID: 8717002788255943084, guid: 0d003d789ad288f4a93c57b53dda22f0, type: 3}
   - {fileID: 3893864092738781054, guid: 0d003d789ad288f4a93c57b53dda22f0, type: 3}
   - {fileID: 113777186592268183, guid: 0d003d789ad288f4a93c57b53dda22f0, type: 3}
+  - {fileID: -2759484274843000371, guid: 0d003d789ad288f4a93c57b53dda22f0, type: 3}
+  - {fileID: 3320691613151027997, guid: 0d003d789ad288f4a93c57b53dda22f0, type: 3}
   - {fileID: 6358473111373802172, guid: 0d003d789ad288f4a93c57b53dda22f0, type: 3}
+  - {fileID: 2383726305701247684, guid: 0d003d789ad288f4a93c57b53dda22f0, type: 3}
+  - {fileID: 7996752657634392266, guid: 0d003d789ad288f4a93c57b53dda22f0, type: 3}
+  - {fileID: -1960688935480416890, guid: 0d003d789ad288f4a93c57b53dda22f0, type: 3}
+  - {fileID: 62241353587976063, guid: 0d003d789ad288f4a93c57b53dda22f0, type: 3}
+  - {fileID: -8100255429162557719, guid: 0d003d789ad288f4a93c57b53dda22f0, type: 3}
   - {fileID: -1168518877346308943, guid: 0d003d789ad288f4a93c57b53dda22f0, type: 3}
   - {fileID: 157417860977249259, guid: 5900eaaa74222b741ad19aeebb689a16, type: 3}
   - {fileID: -6842517687483594, guid: 5900eaaa74222b741ad19aeebb689a16, type: 3}
@@ -96,10 +107,21 @@ SpriteAtlas:
   - Terrain_5
   - Terrain_4
   - Pony_Front
-  - Wallfloor_2
-  - Wallfloor_3
-  - Wallfloor_0
-  - Wallfloor_1
+  - Incinerator_4
+  - Incinerator_5
+  - Incinerator_6
+  - Incinerator_7
+  - Incinerator_0
+  - Incinerator_1
+  - Incinerator_2
+  - Incinerator_3
+  - floor
+  - Wallfloor_12
+  - Wall_4
+  - Wall_5
+  - Wall_2
+  - Wall_3
+  - Wall_1
   - Crate
   - Foob_0
   - Foob_1

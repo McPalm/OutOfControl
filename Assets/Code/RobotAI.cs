@@ -25,17 +25,33 @@ public class RobotAI : MonoBehaviour
         Chef = GetComponent<Chef>();
     }
 
+    public Recepie RequestedMeal;
+
     public IEnumerator AIRoutine()
     {
+        Crate LastCrate = null;
         for(; ; )
         {
             yield return new WaitForSeconds(thinktime);
             var crate = RandomCrate();
+            for (int i = 0; i < 10 && crate == LastCrate; i++)
+                crate = RandomCrate();
+            LastCrate = crate;
             yield return WalkTo(crate.transform.position, .75f);
             yield return new WaitForSeconds(.5f);
             GrabFrom(crate);
             yield return new WaitForSeconds(thinktime);
             var counter = RandomCounter();
+            if(RequestedMeal != null)
+            {
+                for(int i = 0; i < 10; i++)
+                {
+                    if (counter.Held != null && RequestedMeal.Match(Held, counter.Held))
+                        break;
+                    counter = RandomCounter();
+                }
+                    
+            }
             yield return WalkTo(counter.transform.position, .75f);
             yield return new WaitForSeconds(.5f);
             Place(counter);
