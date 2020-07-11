@@ -73,7 +73,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 4
-  m_Sprite: {fileID: -5779282676337348671, guid: 5900eaaa74222b741ad19aeebb689a16, type: 3}
+  m_Sprite: {fileID: 2351468897815074854, guid: 35b225c1b8a82e345ba2b1abe0ac26a5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -100,7 +100,7 @@ MonoBehaviour:
   value: 250
   spoiled: 0
   onGround: 0
-  SpoiledFood: {fileID: 7902658949226819804, guid: 3220d753ec7750c43bd2d9bd4a5e5f9f, type: 3}
+  SpoiledFood: {fileID: 7902658949226819804, guid: 73178d1f151b5da4284691559a5df178, type: 3}
 --- !u!61 &1924215989102990273
 BoxCollider2D:
   m_ObjectHideFlags: 0
