@@ -1,22 +1,13 @@
 fileFormatVersion: 2
-guid: ee79dca615cb4204982d27b91c08fd49
+guid: 5900eaaa74222b741ad19aeebb689a16
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8074338581418846440
-    second: Terrain_0
+      213: -6842517687483594
+    second: Foob_0
   - first:
-      213: 4519664136019108208
-    second: Terrain_1
-  - first:
-      213: -6337999885091750218
-    second: Terrain_2
-  - first:
-      213: -5779282676337348671
-    second: Terrain_3
-  - first:
-      213: -1238933728272178944
-    second: Terrain_4
+      213: 6756196129819434895
+    second: Foob_1
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -81,7 +72,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -93,7 +84,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -105,7 +96,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -119,8 +110,8 @@ TextureImporter:
       name: Terrain_0
       rect:
         serializedVersion: 2
-        x: 64
-        y: 16
+        x: 0
+        y: 112
         width: 16
         height: 16
       alignment: 0
@@ -141,7 +132,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 16
-        y: 16
+        y: 112
         width: 16
         height: 16
       alignment: 0
@@ -162,7 +153,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 32
-        y: 16
+        y: 112
         width: 16
         height: 16
       alignment: 0
@@ -182,8 +173,8 @@ TextureImporter:
       name: Terrain_3
       rect:
         serializedVersion: 2
-        x: 48
-        y: 16
+        x: 0
+        y: 96
         width: 16
         height: 16
       alignment: 0
@@ -200,22 +191,43 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Terrain_4
+      name: Foob_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
+        x: 16
+        y: 96
         width: 16
-        height: 22
-      alignment: 9
-      pivot: {x: 0.5, y: 0.36363637}
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 001261a965c6ecee0800000000000000
-      internalID: -1238933728272178944
+      spriteID: 6334ed334c0b7eff0800000000000000
+      internalID: -6842517687483594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foob_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8f91ce8594d2cd50800000000000000
+      internalID: 6756196129819434895
       vertices: []
       indices: 
       edges: []

@@ -28,7 +28,8 @@ public class Moveable : MonoBehaviour
             transform.position += new Vector3(Mathf.Min(radius * 2 - distance, .1f), 0f);
 
         Speed = delta.magnitude * 60f;
-        Direction = delta;
+        if(delta.sqrMagnitude > 0f)
+            Direction = delta;
     }
 
     public float DistanceInDirection(Vector2 direction)

@@ -22,6 +22,12 @@ public class CharacterInput : MonoBehaviour
         InputToken.SetDirection(context.ReadValue<Vector2>());
     }
 
+    public void OnUse(InputAction.CallbackContext context)
+    {
+        if(context.started)
+            InputToken.PressUse();
+    }
+
 
 
 
