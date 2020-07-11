@@ -97,7 +97,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Name: Meat
-  value: 200
+  value: 150
+  spoiled: 0
+  onGround: 0
+  SpoiledFood: {fileID: 7902658949226819804, guid: 3220d753ec7750c43bd2d9bd4a5e5f9f, type: 3}
 --- !u!61 &8074989610826167155
 BoxCollider2D:
   m_ObjectHideFlags: 0

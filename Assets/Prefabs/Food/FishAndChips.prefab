@@ -97,7 +97,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Name: FishAndChips
-  value: 200
+  value: 250
+  spoiled: 0
+  onGround: 0
+  SpoiledFood: {fileID: 7902658949226819804, guid: 3220d753ec7750c43bd2d9bd4a5e5f9f, type: 3}
 --- !u!61 &1924215989102990273
 BoxCollider2D:
   m_ObjectHideFlags: 0

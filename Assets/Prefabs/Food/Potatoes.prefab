@@ -98,6 +98,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Name: Potatoes
   value: 50
+  spoiled: 0
+  onGround: 0
+  SpoiledFood: {fileID: 7902658949226819804, guid: 3220d753ec7750c43bd2d9bd4a5e5f9f, type: 3}
 --- !u!61 &7812318425670717506
 BoxCollider2D:
   m_ObjectHideFlags: 0
