@@ -19,17 +19,22 @@ public class CharacterInput : MonoBehaviour
 
     public void OnMove(InputAction.CallbackContext context)
     {
-        InputToken.SetDirection(context.ReadValue<Vector2>());
+        if(enabled)
+            InputToken.SetDirection(context.ReadValue<Vector2>());
     }
 
     public void OnUse(InputAction.CallbackContext context)
     {
-        if(context.started)
-            InputToken.PressUse();
+        if (enabled)
+            if (context.started)
+                InputToken.PressUse();
     }
 
 
-
+    private void OnDisable()
+    {
+        InputToken.SetDirection(Vector2.zero);
+    }
 
     public interface IControllable
     {

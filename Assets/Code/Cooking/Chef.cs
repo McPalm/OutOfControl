@@ -11,9 +11,7 @@ public class Chef : MonoBehaviour
     {
         foreach(var r in Recepies)
         {
-            if (r.ingredient1.Name == a.Name && r.ingredient2.Name == b.Name)
-                return r.product;
-            if (r.ingredient1.Name == b.Name && r.ingredient2.Name == a.Name)
+            if (r.Match(a, b))
                 return r.product;
         }
         return spoiledFood;

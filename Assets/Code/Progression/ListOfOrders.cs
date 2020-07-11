@@ -22,10 +22,11 @@ public class ListOfOrders : MonoBehaviour
         }
     }
 
-    public void PlaceRandomOrder()
+    public Recepie PlaceRandomOrder()
     {
         CurrentOrders.Add(potentialOrders[Random.Range(0, potentialOrders.Length)]);
         OnOrdersChange?.Invoke(CurrentOrders);
+        return CurrentOrders[CurrentOrders.Count - 1];
     }
 
     public bool FulfillsAnOrder(Food food)
