@@ -43,6 +43,11 @@ public class ProgressiveDifficulty : MonoBehaviour
                 RandomRobot().RequestedMeal = ListOfOrders.PlaceRandomOrder();
                 Debug.Log("Trying to Help the Player!"); // ssshhh
             }
+            else if(Money.wallet < 0 && ListOfOrders.CurrentOrders.Count > 1)
+            {
+                RandomRobot().RequestedMeal = ListOfOrders.CurrentOrders[0];
+                RandomRobot().RequestedMeal = ListOfOrders.CurrentOrders[1];
+            }
             dynamicFeedback = Time.timeSinceLevelLoad + 10f;
         }
     }

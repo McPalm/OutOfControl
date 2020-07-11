@@ -7,7 +7,7 @@ public class ListOfOrders : MonoBehaviour
 {
     public Recepie[] potentialOrders;
 
-    List<Recepie> CurrentOrders;
+    public List<Recepie> CurrentOrders { get; private set; }
 
     public event System.Action<List<Recepie>> OnOrdersChange;
 

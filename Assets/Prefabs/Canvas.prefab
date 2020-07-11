@@ -909,6 +909,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   wallet: 1200
   text: {fileID: 7716179450469518160}
+  PositiveColour: {r: 1, g: 1, b: 1, a: 1}
+  DebtColour: {r: 1, g: 0, b: 0, a: 1}
 --- !u!114 &7716179450802653554
 MonoBehaviour:
   m_ObjectHideFlags: 0
