@@ -124,3 +124,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Name: Spoils
   value: -50
+  spoiled: 1
+  onGround: 0
+  SpoiledFood: {fileID: 7902658949226819804}

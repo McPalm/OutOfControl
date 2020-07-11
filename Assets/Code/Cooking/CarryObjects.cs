@@ -81,10 +81,12 @@ public class CarryObjects : MonoBehaviour, CharacterInput.IControllable
         obj.transform.position = transform.position + Vector3.up;
         obj.transform.SetParent(transform);
         held = obj;
+        held.onGround = false;
     }
 
     public void Drop()
     {
+        held.onGround = true;
         held.transform.position = (Vector2)transform.position + Moveable.Direction.normalized;
         held.transform.SetParent(null);
         held = null;

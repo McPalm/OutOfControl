@@ -43,13 +43,15 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: 800bc3da2125a284ca823e42ef289ed8, type: 3}
-    totalSpriteSurfaceArea: 82809
+    totalSpriteSurfaceArea: 103289
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
   - {fileID: 21300000, guid: 95f5897109eeca946a364fe8cea9312c, type: 3}
+  - {fileID: 21300000, guid: 71b650b249179f64c861597fe47d208f, type: 3}
+  - {fileID: 21300000, guid: 157810c24a96a1f458901143ba58faf6, type: 3}
   - {fileID: 21300000, guid: 4c60cdb4fedb3f84b941b70c878821a2, type: 3}
   - {fileID: -5779282676337348671, guid: ee79dca615cb4204982d27b91c08fd49, type: 3}
   - {fileID: -6337999885091750218, guid: ee79dca615cb4204982d27b91c08fd49, type: 3}
@@ -60,6 +62,10 @@ SpriteAtlas:
   - {fileID: -4637172546458061636, guid: ee79dca615cb4204982d27b91c08fd49, type: 3}
   - {fileID: -1238933728272178944, guid: ee79dca615cb4204982d27b91c08fd49, type: 3}
   - {fileID: 21300000, guid: 0c43d537bf611574cabe5552995b1a11, type: 3}
+  - {fileID: 3893864092738781054, guid: 0d003d789ad288f4a93c57b53dda22f0, type: 3}
+  - {fileID: 113777186592268183, guid: 0d003d789ad288f4a93c57b53dda22f0, type: 3}
+  - {fileID: 6358473111373802172, guid: 0d003d789ad288f4a93c57b53dda22f0, type: 3}
+  - {fileID: -1168518877346308943, guid: 0d003d789ad288f4a93c57b53dda22f0, type: 3}
   - {fileID: 157417860977249259, guid: 5900eaaa74222b741ad19aeebb689a16, type: 3}
   - {fileID: -6842517687483594, guid: 5900eaaa74222b741ad19aeebb689a16, type: 3}
   - {fileID: 6756196129819434895, guid: 5900eaaa74222b741ad19aeebb689a16, type: 3}
@@ -74,8 +80,12 @@ SpriteAtlas:
   - {fileID: 7672759098259192623, guid: 2c64d4fb05330af42b51d72a7d7ae1ca, type: 3}
   - {fileID: 21300000, guid: 00051e5ce3f78fb448dc2e60cbd45a34, type: 3}
   - {fileID: 21300000, guid: c2a28a6dbc0287f4ea4c161cb34bfa3a, type: 3}
+  - {fileID: 21300000, guid: 57bfa49d57c15ad4c985c746485a51a0, type: 3}
+  - {fileID: 21300000, guid: adf0a8fd40dbea74e93fb46692676ece, type: 3}
   m_PackedSpriteNamesToIndex:
   - Marker
+  - Robo_Front
+  - Robo_Left
   - Pony_Back
   - Terrain_3
   - Terrain_2
@@ -86,6 +96,10 @@ SpriteAtlas:
   - Terrain_5
   - Terrain_4
   - Pony_Front
+  - Wallfloor_2
+  - Wallfloor_3
+  - Wallfloor_0
+  - Wallfloor_1
   - Crate
   - Foob_0
   - Foob_1
@@ -100,5 +114,7 @@ SpriteAtlas:
   - Horse_0
   - Preview
   - Pony_Side
+  - Robo_Back
+  - Robo_Right
   m_Tag: Sprites
   m_IsVariant: 0

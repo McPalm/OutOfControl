@@ -14,6 +14,7 @@ public class Money : MonoBehaviour
     void Start()
     {
         Instance = this;
+        Instance.text.text = $"${Instance.wallet}";
     }
 
     static public void Spend(int value)
