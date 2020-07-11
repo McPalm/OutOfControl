@@ -85,6 +85,8 @@ GameObject:
   - component: {fileID: 1860861500060332730}
   - component: {fileID: 1860861500060332731}
   - component: {fileID: 1860861500060332728}
+  - component: {fileID: 4992615189822983958}
+  - component: {fileID: 923453643441025136}
   m_Layer: 0
   m_Name: Robot
   m_TagString: Untagged
@@ -147,7 +149,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 3604182692263377810, guid: 2c64d4fb05330af42b51d72a7d7ae1ca, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 71b650b249179f64c861597fe47d208f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -215,3 +217,35 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 674164b9edf07bb4e8da0521308ec62c, type: 2}
   - {fileID: 11400000, guid: d04faa607af69564d866e5c31868f299, type: 2}
   spoiledFood: {fileID: 7902658949226819804, guid: 3220d753ec7750c43bd2d9bd4a5e5f9f, type: 3}
+--- !u!114 &4992615189822983958
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1860861500060332735}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4007441729c79e147a46bfd9b8e603f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Animator: {fileID: 923453643441025136}
+--- !u!95 &923453643441025136
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1860861500060332735}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 1a3d59d6be31cf64786fb4d9f13306df, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
