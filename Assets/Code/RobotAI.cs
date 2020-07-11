@@ -58,7 +58,7 @@ public class RobotAI : MonoBehaviour
 
     private void GrabFrom(Crate crate)
     {
-        Held = Instantiate(crate.FoodPrefab);
+        Held = Instantiate(crate.GetFood());
         Held.transform.SetParent(transform);
         Held.transform.localPosition = Vector3.up;
         Held.GetComponent<BoxCollider2D>().enabled = false;

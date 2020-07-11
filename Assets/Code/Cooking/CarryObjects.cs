@@ -57,7 +57,7 @@ public class CarryObjects : MonoBehaviour, CharacterInput.IControllable
                     var crate = hit.transform.GetComponent<Crate>();
                     if(crate)
                     {
-                        var food = Instantiate(crate.FoodPrefab);
+                        var food = Instantiate(crate.GetFood());
                         PickUp(food);
                         InputToken.ConsumeUse();
                         return;

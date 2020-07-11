@@ -97,6 +97,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Name: Meat
+  value: 200
 --- !u!61 &8074989610826167155
 BoxCollider2D:
   m_ObjectHideFlags: 0

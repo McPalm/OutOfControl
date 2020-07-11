@@ -43,7 +43,7 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: 800bc3da2125a284ca823e42ef289ed8, type: 3}
-    totalSpriteSurfaceArea: 81897
+    totalSpriteSurfaceArea: 82809
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
@@ -55,6 +55,9 @@ SpriteAtlas:
   - {fileID: -6337999885091750218, guid: ee79dca615cb4204982d27b91c08fd49, type: 3}
   - {fileID: 4519664136019108208, guid: ee79dca615cb4204982d27b91c08fd49, type: 3}
   - {fileID: 8074338581418846440, guid: ee79dca615cb4204982d27b91c08fd49, type: 3}
+  - {fileID: -6537453368205885854, guid: ee79dca615cb4204982d27b91c08fd49, type: 3}
+  - {fileID: 1404196382344981941, guid: ee79dca615cb4204982d27b91c08fd49, type: 3}
+  - {fileID: -4637172546458061636, guid: ee79dca615cb4204982d27b91c08fd49, type: 3}
   - {fileID: -1238933728272178944, guid: ee79dca615cb4204982d27b91c08fd49, type: 3}
   - {fileID: 21300000, guid: 0c43d537bf611574cabe5552995b1a11, type: 3}
   - {fileID: 157417860977249259, guid: 5900eaaa74222b741ad19aeebb689a16, type: 3}
@@ -78,6 +81,9 @@ SpriteAtlas:
   - Terrain_2
   - Terrain_1
   - Terrain_0
+  - Terrain_7
+  - Terrain_6
+  - Terrain_5
   - Terrain_4
   - Pony_Front
   - Crate

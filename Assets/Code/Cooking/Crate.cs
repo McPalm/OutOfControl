@@ -4,5 +4,11 @@ using UnityEngine;
 
 public class Crate : MonoBehaviour
 {
-    public Food FoodPrefab;
+    [SerializeField] Food FoodPrefab;
+
+    public Food GetFood()
+    {
+        Money.Spend(FoodPrefab.value);
+        return FoodPrefab;
+    }
 }

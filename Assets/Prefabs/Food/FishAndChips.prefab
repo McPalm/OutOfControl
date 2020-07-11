@@ -97,6 +97,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Name: FishAndChips
+  value: 200
 --- !u!61 &1924215989102990273
 BoxCollider2D:
   m_ObjectHideFlags: 0

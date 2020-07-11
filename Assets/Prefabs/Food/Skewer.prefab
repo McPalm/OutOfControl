@@ -97,6 +97,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Name: Skever
+  value: 350
 --- !u!61 &8328728143395380756
 BoxCollider2D:
   m_ObjectHideFlags: 0

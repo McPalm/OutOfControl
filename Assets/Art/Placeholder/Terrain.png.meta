@@ -17,6 +17,15 @@ TextureImporter:
   - first:
       213: -1238933728272178944
     second: Terrain_4
+  - first:
+      213: -4637172546458061636
+    second: Terrain_5
+  - first:
+      213: 1404196382344981941
+    second: Terrain_6
+  - first:
+      213: -6537453368205885854
+    second: Terrain_7
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -216,6 +225,69 @@ TextureImporter:
       bones: []
       spriteID: 001261a965c6ecee0800000000000000
       internalID: -1238933728272178944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain_5
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb47c26432475afb0800000000000000
+      internalID: -4637172546458061636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain_6
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bdaf848b25bc7310800000000000000
+      internalID: 1404196382344981941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain_7
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 0
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26e386c6ccc4645a0800000000000000
+      internalID: -6537453368205885854
       vertices: []
       indices: 
       edges: []

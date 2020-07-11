@@ -9,7 +9,7 @@ public class Counter : MonoBehaviour
     public bool IsEmpty => Held == null;
     public Transform CounterTop;
 
-    public void Place(Food food)
+    virtual public void Place(Food food)
     {
         Held = food;
         food.transform.position = CounterTop.position;

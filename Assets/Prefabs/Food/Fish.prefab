@@ -97,6 +97,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Name: Fish
+  value: 100
 --- !u!61 &4965022567853368423
 BoxCollider2D:
   m_ObjectHideFlags: 0
