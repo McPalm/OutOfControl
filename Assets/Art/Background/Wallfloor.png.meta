@@ -4,16 +4,61 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 6358473111373802172
-    second: Wallfloor_0
+    second: floor
   - first:
       213: -1168518877346308943
-    second: Wallfloor_1
+    second: Wall_1
   - first:
       213: 3893864092738781054
-    second: Wallfloor_2
+    second: Incinerator_0
   - first:
       213: 113777186592268183
-    second: Wallfloor_3
+    second: Incinerator_1
+  - first:
+      213: 5060311624793252288
+    second: floor
+  - first:
+      213: 686919028904580924
+    second: Wall_1
+  - first:
+      213: 6653005695030668633
+    second: Incinerator_0
+  - first:
+      213: 2678130197840373603
+    second: Incinerator_1
+  - first:
+      213: 62241353587976063
+    second: Wall_2
+  - first:
+      213: -8100255429162557719
+    second: Wall_3
+  - first:
+      213: -2759484274843000371
+    second: Incinerator_2
+  - first:
+      213: 3320691613151027997
+    second: Incinerator_3
+  - first:
+      213: 7996752657634392266
+    second: Wall_4
+  - first:
+      213: -1960688935480416890
+    second: Wall_5
+  - first:
+      213: 4145263132057559093
+    second: Incinerator_4
+  - first:
+      213: 8261136495816926602
+    second: Incinerator_5
+  - first:
+      213: 2383726305701247684
+    second: Wallfloor_12
+  - first:
+      213: 3356538784510514710
+    second: Incinerator_6
+  - first:
+      213: 8717002788255943084
+    second: Incinerator_7
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -113,7 +158,175 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Wallfloor_0
+      name: floor
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c1e490bc96d93640800000000000000
+      internalID: 5060311624793252288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c375053a73d688900800000000000000
+      internalID: 686919028904580924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Incinerator_0
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95d24f43e69345c50800000000000000
+      internalID: 6653005695030668633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Incinerator_1
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 367a580c931aa2520800000000000000
+      internalID: 2678130197840373603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7763fa6e202dd000800000000000000
+      internalID: 62241353587976063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall_3
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ee16daaa9c169f80800000000000000
+      internalID: -8100255429162557719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Incinerator_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc1e4b22ca754b9d0800000000000000
+      internalID: -2759484274843000371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Incinerator_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d136c7aad67751e20800000000000000
+      internalID: 3320691613151027997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall_4
       rect:
         serializedVersion: 2
         x: 0
@@ -121,20 +334,20 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cbaee4d2b95dd3850800000000000000
-      internalID: 6358473111373802172
+      spriteID: ac875fa6c2c2afe60800000000000000
+      internalID: 7996752657634392266
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wallfloor_1
+      name: Wall_5
       rect:
         serializedVersion: 2
         x: 32
@@ -142,41 +355,62 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1bc5f6aa54698cfe0800000000000000
-      internalID: -1168518877346308943
+      spriteID: 685a6a52dcb3ac4e0800000000000000
+      internalID: -1960688935480416890
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wallfloor_2
+      name: Incinerator_4
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
+        x: 64
+        y: 32
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e7ff75303c8c90630800000000000000
-      internalID: 3893864092738781054
+      spriteID: 53060d62bdee68930800000000000000
+      internalID: 4145263132057559093
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wallfloor_3
+      name: Incinerator_5
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a85ee22afd375a270800000000000000
+      internalID: 8261136495816926602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wallfloor_12
       rect:
         serializedVersion: 2
         x: 32
@@ -184,14 +418,56 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 79f10669fb7349100800000000000000
-      internalID: 113777186592268183
+      spriteID: 4cab31d0272b41120800000000000000
+      internalID: 2383726305701247684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Incinerator_6
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6161295ad32d49e20800000000000000
+      internalID: 3356538784510514710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Incinerator_7
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca9c51ce9d309f870800000000000000
+      internalID: 8717002788255943084
       vertices: []
       indices: 
       edges: []
