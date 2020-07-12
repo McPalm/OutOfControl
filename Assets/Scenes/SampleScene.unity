@@ -3444,6 +3444,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Counter (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 8246095870757754743, guid: b6359dbb0d3ba724b80999db5f71512d, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 51c805184c6682145923bfa8791e1a9f, type: 3}
     - target: {fileID: 8246095870757754744, guid: b6359dbb0d3ba724b80999db5f71512d, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2
