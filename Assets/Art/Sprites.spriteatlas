@@ -43,7 +43,7 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: 800bc3da2125a284ca823e42ef289ed8, type: 3}
-    totalSpriteSurfaceArea: 129557
+    totalSpriteSurfaceArea: 156181
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
@@ -67,7 +67,10 @@ SpriteAtlas:
   - {fileID: -6632034668357137526, guid: 35b225c1b8a82e345ba2b1abe0ac26a5, type: 3}
   - {fileID: -7403614025409400531, guid: 2e8e16d1c0199a04d922c560cdb8e346, type: 3}
   - {fileID: 2761390512862339017, guid: 2e8e16d1c0199a04d922c560cdb8e346, type: 3}
-  - {fileID: 21300000, guid: 71b650b249179f64c861597fe47d208f, type: 3}
+  - {fileID: 2831591862931657133, guid: 71b650b249179f64c861597fe47d208f, type: 3}
+  - {fileID: 7790245947153122268, guid: 71b650b249179f64c861597fe47d208f, type: 3}
+  - {fileID: -6754979692564755380, guid: 71b650b249179f64c861597fe47d208f, type: 3}
+  - {fileID: -4141873477222667811, guid: 71b650b249179f64c861597fe47d208f, type: 3}
   - {fileID: 21300000, guid: 157810c24a96a1f458901143ba58faf6, type: 3}
   - {fileID: 3949274516146885595, guid: 4c60cdb4fedb3f84b941b70c878821a2, type: 3}
   - {fileID: -4581911232053945365, guid: 4c60cdb4fedb3f84b941b70c878821a2, type: 3}
@@ -92,6 +95,7 @@ SpriteAtlas:
   - {fileID: -5894886013747676386, guid: 0c43d537bf611574cabe5552995b1a11, type: 3}
   - {fileID: -7279416645681813515, guid: 0c43d537bf611574cabe5552995b1a11, type: 3}
   - {fileID: 4893548923096392416, guid: 0c43d537bf611574cabe5552995b1a11, type: 3}
+  - {fileID: 21300000, guid: 51c805184c6682145923bfa8791e1a9f, type: 3}
   - {fileID: 113777186592268183, guid: 0d003d789ad288f4a93c57b53dda22f0, type: 3}
   - {fileID: 3893864092738781054, guid: 0d003d789ad288f4a93c57b53dda22f0, type: 3}
   - {fileID: -38929777804649070, guid: 0d003d789ad288f4a93c57b53dda22f0, type: 3}
@@ -131,7 +135,10 @@ SpriteAtlas:
   - {fileID: 3337333293407367450, guid: c2a28a6dbc0287f4ea4c161cb34bfa3a, type: 3}
   - {fileID: 109963124966297827, guid: c2a28a6dbc0287f4ea4c161cb34bfa3a, type: 3}
   - {fileID: 7173971026595223265, guid: c2a28a6dbc0287f4ea4c161cb34bfa3a, type: 3}
-  - {fileID: 21300000, guid: 57bfa49d57c15ad4c985c746485a51a0, type: 3}
+  - {fileID: 4984671454301961245, guid: 57bfa49d57c15ad4c985c746485a51a0, type: 3}
+  - {fileID: 1857782406067330441, guid: 57bfa49d57c15ad4c985c746485a51a0, type: 3}
+  - {fileID: 5846101392209570409, guid: 57bfa49d57c15ad4c985c746485a51a0, type: 3}
+  - {fileID: -4746228433191813951, guid: 57bfa49d57c15ad4c985c746485a51a0, type: 3}
   - {fileID: 21300000, guid: adf0a8fd40dbea74e93fb46692676ece, type: 3}
   m_PackedSpriteNamesToIndex:
   - Foodsheet_10
@@ -152,7 +159,10 @@ SpriteAtlas:
   - Foodsheet_6
   - VolumeIcons_0
   - VolumeIcons_1
-  - Robo_Front
+  - Robo_Front_2
+  - Robo_Front_3
+  - Robo_Front_0
+  - Robo_Front_1
   - Robo_Left
   - Pony_Back_2
   - Pony_Back_3
@@ -177,6 +187,7 @@ SpriteAtlas:
   - Pony_Front_3
   - Pony_Front_0
   - Pony_Front_1
+  - Countertopalt
   - Crate_Empty
   - Crate_Meat
   - Crate_Potato
@@ -216,7 +227,10 @@ SpriteAtlas:
   - Pony_Side_1
   - Pony_Side_4
   - Pony_Side_5
-  - Robo_Back
+  - Robo_Back_2
+  - Robo_Back_3
+  - Robo_Back_0
+  - Robo_Back_1
   - Robo_Right
   m_Tag: Sprites
   m_IsVariant: 0
