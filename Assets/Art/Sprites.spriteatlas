@@ -43,7 +43,7 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: 800bc3da2125a284ca823e42ef289ed8, type: 3}
-    totalSpriteSurfaceArea: 93609
+    totalSpriteSurfaceArea: 112301
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
@@ -69,7 +69,16 @@ SpriteAtlas:
   - {fileID: 2761390512862339017, guid: 2e8e16d1c0199a04d922c560cdb8e346, type: 3}
   - {fileID: 21300000, guid: 71b650b249179f64c861597fe47d208f, type: 3}
   - {fileID: 21300000, guid: 157810c24a96a1f458901143ba58faf6, type: 3}
-  - {fileID: 21300000, guid: 4c60cdb4fedb3f84b941b70c878821a2, type: 3}
+  - {fileID: 3949274516146885595, guid: 4c60cdb4fedb3f84b941b70c878821a2, type: 3}
+  - {fileID: -4581911232053945365, guid: 4c60cdb4fedb3f84b941b70c878821a2, type: 3}
+  - {fileID: -8142034177801399692, guid: 4c60cdb4fedb3f84b941b70c878821a2, type: 3}
+  - {fileID: 7315456400691770221, guid: 4c60cdb4fedb3f84b941b70c878821a2, type: 3}
+  - {fileID: -2718235607899335539, guid: 36f97c56944cdea40a65da53d916e945, type: 3}
+  - {fileID: 7397512014565302462, guid: 36f97c56944cdea40a65da53d916e945, type: 3}
+  - {fileID: 7944954166676908119, guid: 36f97c56944cdea40a65da53d916e945, type: 3}
+  - {fileID: -6883988636895558294, guid: 36f97c56944cdea40a65da53d916e945, type: 3}
+  - {fileID: 7936183523701645875, guid: 36f97c56944cdea40a65da53d916e945, type: 3}
+  - {fileID: 5315413996722791536, guid: 36f97c56944cdea40a65da53d916e945, type: 3}
   - {fileID: -5779282676337348671, guid: ee79dca615cb4204982d27b91c08fd49, type: 3}
   - {fileID: -6337999885091750218, guid: ee79dca615cb4204982d27b91c08fd49, type: 3}
   - {fileID: 4519664136019108208, guid: ee79dca615cb4204982d27b91c08fd49, type: 3}
@@ -141,7 +150,16 @@ SpriteAtlas:
   - VolumeIcons_1
   - Robo_Front
   - Robo_Left
-  - Pony_Back
+  - Pony_Back_2
+  - Pony_Back_3
+  - Pony_Back_0
+  - Pony_Back_1
+  - Wallfloor2_4
+  - Wallfloor2_5
+  - Wallfloor2_2
+  - Wallfloor2_3
+  - Wallfloor2_0
+  - Wallfloor2_1
   - Terrain_3
   - Terrain_2
   - Terrain_1
