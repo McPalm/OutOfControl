@@ -82,10 +82,13 @@ public class RobotAI : MonoBehaviour
 
     public IEnumerator WalkTo(Vector2 position, float distance)
     {
+        var direction = (position - (Vector2)transform.position).normalized;
+        if (direction.x != 0)
+            transform.SetForward(direction.x);
         while(Vector2.SqrMagnitude((Vector2)transform.position - position) > distance * distance)
         {
             yield return new WaitForFixedUpdate();
-            var direction = (position - (Vector2)transform.position).normalized;
+            direction = (position - (Vector2)transform.position).normalized;
             Moveable.Move((direction * walkSpeed * Time.fixedDeltaTime));
         }
 
