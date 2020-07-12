@@ -11,13 +11,23 @@ public class MusicMixer : MonoBehaviour
 
     public AudioClip LoseJingle;
 
-    void Start()
+    IEnumerator Start()
     {
+#if UNITY_WEBGL
+        yield return new WaitForSecondsRealtime(1f);
+        Intro.Play();
+        yield return new WaitForSecondsRealtime(Intro.clip.length);
+        Normal.Play();
+        Bad.Play();
+        Dire.Play();
+#else
         Intro.PlayScheduled(AudioSettings.dspTime + 1.0);
         double time = AudioSettings.dspTime + 1.0 + Intro.clip.length;
         Normal.PlayScheduled(time);
         Bad.PlayScheduled(time);
         Dire.PlayScheduled(time);
+        yield return null;
+#endif
     }
 
     // Update is called once per frame
