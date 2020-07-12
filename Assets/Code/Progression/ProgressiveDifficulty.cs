@@ -21,7 +21,6 @@ public class ProgressiveDifficulty : MonoBehaviour
         if (Time.timeSinceLevelLoad > stage * 30f)
         {
             stage++;
-            Debug.Log($"Difficulty: {stage}");
             foreach (var robot in Robots)
             {
                 robot.walkSpeed = 1.75f + stage * .1f;
@@ -41,7 +40,6 @@ public class ProgressiveDifficulty : MonoBehaviour
             {
                 // do something nice
                 RandomRobot().RequestedMeal = ListOfOrders.PlaceRandomOrder();
-                Debug.Log("Trying to Help the Player!"); // ssshhh
             }
             else if(Money.wallet < 0 && ListOfOrders.CurrentOrders.Count > 1)
             {

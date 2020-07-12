@@ -24,17 +24,35 @@ public class CarryObjects : MonoBehaviour, CharacterInput.IControllable
         {
             if (held)
             {
-                var hit = Physics2D.BoxCast((Vector2)transform.position + Moveable.Direction.normalized, Vector2.one, 0f, Vector2.zero, 0f, CarryMask);
-                if(hit)
+                var hits = Physics2D.BoxCastAll((Vector2)transform.position + Moveable.Direction.normalized, Vector2.one, 0f, Vector2.zero, 0f, CarryMask);
+                if (hits.Length > 0)
                 {
-                    var Counter = hit.transform.GetComponent<Counter>();
-                    if(Counter && Counter.IsEmpty)
+                    var hit = hits[0];
+                    Vector2 controlPoint = (Vector2)transform.position + Moveable.Direction.normalized * .5f;
+                    float distance = ((Vector2)hit.transform.position - controlPoint).sqrMagnitude;
+                    for(int i = 1; i < hits.Length; i++)
                     {
-                        Counter.Place(held);
-                        held = null;
+                        float d2 = ((Vector2)hits[i].transform.position - controlPoint).sqrMagnitude;
+                        if(d2 < distance)
+                        {
+                            hit = hits[i];
+                            distance = d2;
+                        }
                     }
+                    var Counter = hit.transform.GetComponent<Counter>();
                     if (Counter)
                     {
+                        if (Counter.IsEmpty)
+                        {
+                            Counter.Place(held);
+                            held = null;
+                        }
+                        else // swap
+                        {
+                            var tmp = Counter.Grab();
+                            Counter.Place(held);
+                            PickUp(tmp);
+                        }
                         InputToken.ConsumeUse();
                         return;
                     }
