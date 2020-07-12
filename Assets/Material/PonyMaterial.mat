@@ -38,6 +38,7 @@ Material:
     m_Floats:
     - Random_Pony_Color: 5.2
     - _EnableExternalAlpha: 0
+    - _Random_Pony_Color: 0.89
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _Flip: {r: 1, g: 1, b: 1, a: 1}
