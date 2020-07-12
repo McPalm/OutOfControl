@@ -19,6 +19,9 @@ public class LoseCondition : MonoBehaviour
     static public int Danger;
     static public float timeLeft = 60f;
 
+    public Image Black;
+    public Image GameOverPicture;
+
     // Update is called once per frame
     void Update()
     {
@@ -55,7 +58,22 @@ public class LoseCondition : MonoBehaviour
 
     IEnumerator LoseRoutine()
     {
-        yield return new WaitForSeconds(5f);
+        yield return new WaitForSecondsRealtime(5f);
+
+        Black.gameObject.SetActive(true);
+        for(float f = 0; f < 1f; f += Time.deltaTime)
+        {
+            yield return null;
+            GameOverPicture.color = new Color(1f, 1f, 1f, f);
+        }
+        GameOverPicture.color = Color.white;
+        yield return new WaitForSecondsRealtime(5f);
+        for (float f = 0; f < 1f; f += Time.deltaTime)
+        {
+            yield return null;
+            GameOverPicture.color = new Color(1f, 1f, 1f, 1f-f);
+        }
+
         SceneManager.LoadScene(0);
         Danger = 0;
     }
