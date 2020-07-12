@@ -91,7 +91,7 @@ public class RobotAI : MonoBehaviour
             direction = (position - (Vector2)transform.position).normalized;
             Moveable.Move((direction * walkSpeed * Time.fixedDeltaTime));
         }
-
+        Moveable.Move(Vector2.zero);
     }
 
     
