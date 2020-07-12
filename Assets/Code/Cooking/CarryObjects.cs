@@ -100,6 +100,7 @@ public class CarryObjects : MonoBehaviour, CharacterInput.IControllable
         obj.transform.SetParent(transform);
         held = obj;
         held.onGround = false;
+        held.GetComponent<SpriteRenderer>().sortingOrder = 2;
     }
 
     public void Drop()
@@ -107,6 +108,7 @@ public class CarryObjects : MonoBehaviour, CharacterInput.IControllable
         held.onGround = true;
         held.transform.position = (Vector2)transform.position + Moveable.Direction.normalized;
         held.transform.SetParent(null);
+        held.GetComponent<SpriteRenderer>().sortingOrder = 0;
         held = null;
     }
 }

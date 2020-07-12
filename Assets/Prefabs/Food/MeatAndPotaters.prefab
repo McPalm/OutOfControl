@@ -73,7 +73,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 4
+  m_SortingOrder: 2
   m_Sprite: {fileID: 1810276222694753358, guid: 35b225c1b8a82e345ba2b1abe0ac26a5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -135,6 +135,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5388376197341999675}
     m_Modifications:
+    - target: {fileID: 1683642405283980670, guid: 7c435106cf4c11a4d864131a0b25b8a3, type: 3}
+      propertyPath: m_SortingOrder
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4305165217112734164, guid: 7c435106cf4c11a4d864131a0b25b8a3, type: 3}
       propertyPath: m_Name
       value: Flies
