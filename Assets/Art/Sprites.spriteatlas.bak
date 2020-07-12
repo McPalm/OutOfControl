@@ -43,7 +43,7 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: 800bc3da2125a284ca823e42ef289ed8, type: 3}
-    totalSpriteSurfaceArea: 128685
+    totalSpriteSurfaceArea: 112301
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
@@ -73,7 +73,6 @@ SpriteAtlas:
   - {fileID: -4581911232053945365, guid: 4c60cdb4fedb3f84b941b70c878821a2, type: 3}
   - {fileID: -8142034177801399692, guid: 4c60cdb4fedb3f84b941b70c878821a2, type: 3}
   - {fileID: 7315456400691770221, guid: 4c60cdb4fedb3f84b941b70c878821a2, type: 3}
-  - {fileID: 21300000, guid: aef185e5fd81ccb46b29488e73a29fe1, type: 3}
   - {fileID: -2718235607899335539, guid: 36f97c56944cdea40a65da53d916e945, type: 3}
   - {fileID: 7397512014565302462, guid: 36f97c56944cdea40a65da53d916e945, type: 3}
   - {fileID: 7944954166676908119, guid: 36f97c56944cdea40a65da53d916e945, type: 3}
@@ -158,7 +157,6 @@ SpriteAtlas:
   - Pony_Back_3
   - Pony_Back_0
   - Pony_Back_1
-  - Pony_FrontIdle
   - Wallfloor2_4
   - Wallfloor2_5
   - Wallfloor2_2
