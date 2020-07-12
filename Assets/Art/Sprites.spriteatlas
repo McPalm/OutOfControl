@@ -43,7 +43,7 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: 800bc3da2125a284ca823e42ef289ed8, type: 3}
-    totalSpriteSurfaceArea: 93609
+    totalSpriteSurfaceArea: 122281
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
@@ -69,7 +69,11 @@ SpriteAtlas:
   - {fileID: 2761390512862339017, guid: 2e8e16d1c0199a04d922c560cdb8e346, type: 3}
   - {fileID: 21300000, guid: 71b650b249179f64c861597fe47d208f, type: 3}
   - {fileID: 21300000, guid: 157810c24a96a1f458901143ba58faf6, type: 3}
-  - {fileID: 21300000, guid: 4c60cdb4fedb3f84b941b70c878821a2, type: 3}
+  - {fileID: 3949274516146885595, guid: 4c60cdb4fedb3f84b941b70c878821a2, type: 3}
+  - {fileID: -4581911232053945365, guid: 4c60cdb4fedb3f84b941b70c878821a2, type: 3}
+  - {fileID: -8142034177801399692, guid: 4c60cdb4fedb3f84b941b70c878821a2, type: 3}
+  - {fileID: 7315456400691770221, guid: 4c60cdb4fedb3f84b941b70c878821a2, type: 3}
+  - {fileID: 21300000, guid: aef185e5fd81ccb46b29488e73a29fe1, type: 3}
   - {fileID: -5779282676337348671, guid: ee79dca615cb4204982d27b91c08fd49, type: 3}
   - {fileID: -6337999885091750218, guid: ee79dca615cb4204982d27b91c08fd49, type: 3}
   - {fileID: 4519664136019108208, guid: ee79dca615cb4204982d27b91c08fd49, type: 3}
@@ -78,7 +82,10 @@ SpriteAtlas:
   - {fileID: 1404196382344981941, guid: ee79dca615cb4204982d27b91c08fd49, type: 3}
   - {fileID: -4637172546458061636, guid: ee79dca615cb4204982d27b91c08fd49, type: 3}
   - {fileID: -1238933728272178944, guid: ee79dca615cb4204982d27b91c08fd49, type: 3}
-  - {fileID: 21300000, guid: 0c43d537bf611574cabe5552995b1a11, type: 3}
+  - {fileID: -6470270150009056250, guid: 0c43d537bf611574cabe5552995b1a11, type: 3}
+  - {fileID: -5894886013747676386, guid: 0c43d537bf611574cabe5552995b1a11, type: 3}
+  - {fileID: -7279416645681813515, guid: 0c43d537bf611574cabe5552995b1a11, type: 3}
+  - {fileID: 4893548923096392416, guid: 0c43d537bf611574cabe5552995b1a11, type: 3}
   - {fileID: 113777186592268183, guid: 0d003d789ad288f4a93c57b53dda22f0, type: 3}
   - {fileID: 3893864092738781054, guid: 0d003d789ad288f4a93c57b53dda22f0, type: 3}
   - {fileID: -38929777804649070, guid: 0d003d789ad288f4a93c57b53dda22f0, type: 3}
@@ -141,7 +148,11 @@ SpriteAtlas:
   - VolumeIcons_1
   - Robo_Front
   - Robo_Left
-  - Pony_Back
+  - Pony_Back_2
+  - Pony_Back_3
+  - Pony_Back_0
+  - Pony_Back_1
+  - Pony_FrontIdle
   - Terrain_3
   - Terrain_2
   - Terrain_1
@@ -150,7 +161,10 @@ SpriteAtlas:
   - Terrain_6
   - Terrain_5
   - Terrain_4
-  - Pony_Front
+  - Pony_Front_2
+  - Pony_Front_3
+  - Pony_Front_0
+  - Pony_Front_1
   - Crate_Empty
   - Crate_Meat
   - Crate_Potato
