@@ -33,5 +33,6 @@ public class Food : MonoBehaviour
         value = SpoiledFood.value;
         GetComponent<SpriteRenderer>().sprite = SpoiledFood.GetComponent<SpriteRenderer>().sprite;
         spoiled = true;
+        transform.GetChild(0).gameObject.SetActive(true);
     }
 }
