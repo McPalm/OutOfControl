@@ -5,6 +5,7 @@ using UnityEngine;
 public class Delivery : Counter
 {
     public ListOfOrders ListOfOrders;
+    public AudioSource AudioSource;
 
     public override void Place(Food food)
     {
@@ -13,6 +14,7 @@ public class Delivery : Counter
             Destroy(food.gameObject);
             Money.Earn(food.value);
             Score.Instance.AddScore(food.value);
+            AudioSource.Play();
         }
         else
         {

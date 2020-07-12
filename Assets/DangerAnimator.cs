@@ -10,5 +10,6 @@ public class DangerAnimator : MonoBehaviour
     void Update()
     {
         Animator.SetInteger("Danger", LoseCondition.Danger);
+        Animator.SetFloat("TimeLeft", LoseCondition.timeLeft);
     }
 }

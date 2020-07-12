@@ -11,6 +11,9 @@ public class CarryObjects : MonoBehaviour, CharacterInput.IControllable
 
     Food held;
 
+    public AudioSource PickupSound;
+    public AudioSource DropSound;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -46,6 +49,7 @@ public class CarryObjects : MonoBehaviour, CharacterInput.IControllable
                         {
                             Counter.Place(held);
                             held = null;
+                            DropSound.Play();
                         }
                         else // swap
                         {
@@ -101,6 +105,7 @@ public class CarryObjects : MonoBehaviour, CharacterInput.IControllable
         held = obj;
         held.onGround = false;
         held.GetComponent<SpriteRenderer>().sortingOrder = 2;
+        PickupSound.Play();
     }
 
     public void Drop()
@@ -110,5 +115,6 @@ public class CarryObjects : MonoBehaviour, CharacterInput.IControllable
         held.transform.SetParent(null);
         held.GetComponent<SpriteRenderer>().sortingOrder = 0;
         held = null;
+        DropSound.Play();
     }
 }

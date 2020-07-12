@@ -17,10 +17,12 @@ public class LoseCondition : MonoBehaviour
     public Slider Slider;
 
     static public int Danger;
+    static public float timeLeft = 60f;
 
     // Update is called once per frame
     void Update()
     {
+        timeLeft = time;
         if(Money.Instance.wallet < 0)
         {
             time -= Time.deltaTime;
