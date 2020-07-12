@@ -43,7 +43,7 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: 800bc3da2125a284ca823e42ef289ed8, type: 3}
-    totalSpriteSurfaceArea: 156181
+    totalSpriteSurfaceArea: 172565
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
@@ -71,7 +71,6 @@ SpriteAtlas:
   - {fileID: 7790245947153122268, guid: 71b650b249179f64c861597fe47d208f, type: 3}
   - {fileID: -6754979692564755380, guid: 71b650b249179f64c861597fe47d208f, type: 3}
   - {fileID: -4141873477222667811, guid: 71b650b249179f64c861597fe47d208f, type: 3}
-  - {fileID: 21300000, guid: 157810c24a96a1f458901143ba58faf6, type: 3}
   - {fileID: 3949274516146885595, guid: 4c60cdb4fedb3f84b941b70c878821a2, type: 3}
   - {fileID: -4581911232053945365, guid: 4c60cdb4fedb3f84b941b70c878821a2, type: 3}
   - {fileID: -8142034177801399692, guid: 4c60cdb4fedb3f84b941b70c878821a2, type: 3}
@@ -139,7 +138,12 @@ SpriteAtlas:
   - {fileID: 1857782406067330441, guid: 57bfa49d57c15ad4c985c746485a51a0, type: 3}
   - {fileID: 5846101392209570409, guid: 57bfa49d57c15ad4c985c746485a51a0, type: 3}
   - {fileID: -4746228433191813951, guid: 57bfa49d57c15ad4c985c746485a51a0, type: 3}
-  - {fileID: 21300000, guid: adf0a8fd40dbea74e93fb46692676ece, type: 3}
+  - {fileID: 2358348973742467277, guid: adf0a8fd40dbea74e93fb46692676ece, type: 3}
+  - {fileID: 1204311720896693274, guid: adf0a8fd40dbea74e93fb46692676ece, type: 3}
+  - {fileID: -4409873065338937232, guid: adf0a8fd40dbea74e93fb46692676ece, type: 3}
+  - {fileID: 2003525233149590987, guid: adf0a8fd40dbea74e93fb46692676ece, type: 3}
+  - {fileID: -3412841421286378663, guid: adf0a8fd40dbea74e93fb46692676ece, type: 3}
+  - {fileID: 3732570615482796620, guid: adf0a8fd40dbea74e93fb46692676ece, type: 3}
   m_PackedSpriteNamesToIndex:
   - Foodsheet_10
   - Foodsheet_11
@@ -163,7 +167,6 @@ SpriteAtlas:
   - Robo_Front_3
   - Robo_Front_0
   - Robo_Front_1
-  - Robo_Left
   - Pony_Back_2
   - Pony_Back_3
   - Pony_Back_0
@@ -231,6 +234,11 @@ SpriteAtlas:
   - Robo_Back_3
   - Robo_Back_0
   - Robo_Back_1
-  - Robo_Right
+  - Robo_Right_5
+  - Robo_Right_4
+  - Robo_Right_1
+  - Robo_Right_0
+  - Robo_Right_3
+  - Robo_Right_2
   m_Tag: Sprites
   m_IsVariant: 0
