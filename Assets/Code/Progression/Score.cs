@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.Events;
 
 public class Score : MonoBehaviour
 {
@@ -9,17 +10,22 @@ public class Score : MonoBehaviour
 
     public int score = 0;
     public TextMeshProUGUI text;
+    int multiplier = 1;
+    public void SetMultipler(int value) => multiplier = value;
+
+    public UnityEvent<int> OnScore;
 
     private void Start()
     {
         Instance = this;
-        text.text = $"{score:000,000}";
+        text.text = $"{score:0,000,000}";
     }
 
     public void AddScore(int value)
     {
-        score += value;
-        text.text = $"{score:000,000}";
+        score += value * multiplier;
+        OnScore.Invoke(value * multiplier);
+        text.text = $"{score:0,000,000}";
     }
     
 }

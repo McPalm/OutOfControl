@@ -15,7 +15,6 @@ public class HighScore : MonoBehaviour
     void Start()
     {
         highscore = PlayerPrefs.GetInt("HighScore");
-        Debug.Log($"Git hi: {highscore}");
         OnChangeValue.Invoke(highscore);
     }
 

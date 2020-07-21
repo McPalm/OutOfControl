@@ -9,8 +9,7 @@ public class HighscoreDisplay : MonoBehaviour
 
     public void SetValue(int value)
     {
-        Debug.Log($"Updoot: {value}");
         Display.gameObject.SetActive(value > 0);
-        Display.text = $"Hi - {value:000,000}";
+        Display.text = $"Hi - {value:0,000,000}";
     }
 }

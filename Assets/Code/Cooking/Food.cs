@@ -14,6 +14,11 @@ public class Food : MonoBehaviour
 
     float health = 5f;
 
+
+    private void Start() => FoodTracker.Instance.AddFood(this);
+    private void OnDisable() => FoodTracker.Instance.RemoveFood(this);
+    
+
     void Update()
     {
         if (spoiled)
