@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class ProgressiveDifficulty : MonoBehaviour
 {
@@ -15,12 +16,15 @@ public class ProgressiveDifficulty : MonoBehaviour
 
     RobotAI RandomRobot() => Robots[Random.Range(0, Robots.Length)];
 
+    public UnityEvent<int> OnStageChange;
+
     // Update is called once per frame
     void Update()
     {
         if (Time.timeSinceLevelLoad > stage * 30f)
         {
             stage++;
+            OnStageChange.Invoke(stage);
             foreach (var robot in Robots)
             {
                 robot.walkSpeed = 1.75f + stage * .1f;
@@ -33,6 +37,14 @@ public class ProgressiveDifficulty : MonoBehaviour
             }
             if (stage == 2)
                 Robots[1].enabled = true;
+            Debug.Log($"Entering stage {stage}");
+            if(stage > 7)
+            {
+                int currentOrders = ListOfOrders.CurrentOrders.Count;
+                int maxOrders = 12 - currentOrders;
+                if(maxOrders > 0)
+                    ListOfOrders.PlaceBulkOrder(System.Math.Min(maxOrders, 2 + stage / 5));
+            }
         }
         if(dynamicFeedback < Time.timeSinceLevelLoad)
         {

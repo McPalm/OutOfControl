@@ -9,7 +9,8 @@ public class ScoreMultiplier : MonoBehaviour
     int spoiledFood;
 
     int currentMultiplier = 1;
-    
+
+    float lossMultiplier = .5f;
 
     public UnityEvent<float> OnHygeneChanged;
     public UnityEvent<int> OnMultiplerChanged;
@@ -21,13 +22,14 @@ public class ScoreMultiplier : MonoBehaviour
         {
             OnMultiplerChangedFormat.Invoke($"Hygiene x{i}");
         });
+        FindObjectOfType<ProgressiveDifficulty>().OnStageChange.AddListener(OnStageChange);
     }
 
     // Update is called once per frame
     void Update()
     {
         if (spoiledFood > 0)
-            hygene -= Time.deltaTime * spoiledFood * .5f;
+            hygene -= Time.deltaTime * spoiledFood * lossMultiplier;
         else
             hygene += Time.deltaTime * .2f;
         if (hygene < 0f)
@@ -52,8 +54,9 @@ public class ScoreMultiplier : MonoBehaviour
 
     void Penalty()
     {
-        if (currentMultiplier > 1)
-            currentMultiplier /= 2;
+        if (currentMultiplier % 2 == 0)
+            hygene += 2.5f;
+        currentMultiplier /= 2;
         OnMultiplerChanged.Invoke(currentMultiplier);
     }
 
@@ -67,6 +70,17 @@ public class ScoreMultiplier : MonoBehaviour
         currentMultiplier++;
         OnMultiplerChanged.Invoke(currentMultiplier);
     }
+
+    void OnStageChange(int stage)
+    {
+        if (stage == 7)
+            lossMultiplier = .4f;
+        if (stage == 12)
+            lossMultiplier = .3f;
+        if (stage == 14)
+            lossMultiplier = .25f;
+    }
+    
 
     public void SetSpoiledFoodCount(int value) => spoiledFood = value;
 }

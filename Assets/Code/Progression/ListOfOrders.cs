@@ -22,6 +22,14 @@ public class ListOfOrders : MonoBehaviour
         }
     }
 
+    public void PlaceBulkOrder(int count)
+    {
+        var order = potentialOrders[Random.Range(0, potentialOrders.Length)];
+        for (int i = 0; i < count; i++)
+            CurrentOrders.Add(order);
+        OnOrdersChange?.Invoke(CurrentOrders);
+    }
+
     public Recepie PlaceRandomOrder()
     {
         CurrentOrders.Add(potentialOrders[Random.Range(0, potentialOrders.Length)]);
