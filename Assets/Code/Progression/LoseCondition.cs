@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 using UnityEngine.SceneManagement;
+using UnityEngine.Events;
 
 public class LoseCondition : MonoBehaviour
 {
@@ -21,6 +22,8 @@ public class LoseCondition : MonoBehaviour
 
     public Image Black;
     public Image GameOverPicture;
+
+    public UnityEvent OnGameOverScreen;
 
     // Update is called once per frame
     void Update()
@@ -67,6 +70,7 @@ public class LoseCondition : MonoBehaviour
             GameOverPicture.color = new Color(1f, 1f, 1f, f);
         }
         GameOverPicture.color = Color.white;
+        OnGameOverScreen.Invoke();
         yield return new WaitForSecondsRealtime(5f);
         for (float f = 0; f < 1f; f += Time.deltaTime)
         {

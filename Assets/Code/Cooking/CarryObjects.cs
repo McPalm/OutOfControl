@@ -110,8 +110,12 @@ public class CarryObjects : MonoBehaviour, CharacterInput.IControllable
 
     public void Drop()
     {
+        Vector2 suggestedPosition = (Vector2)transform.position + Moveable.Direction.normalized;
+        var hit = Physics2D.BoxCast(suggestedPosition, new Vector2(.2f, .2f), 0f, Vector2.zero, 0f, LayerMask.GetMask("Solid"));
+        if (hit)
+            suggestedPosition = transform.position;
         held.onGround = true;
-        held.transform.position = (Vector2)transform.position + Moveable.Direction.normalized;
+        held.transform.position = suggestedPosition;
         held.transform.SetParent(null);
         held.GetComponent<SpriteRenderer>().sortingOrder = 0;
         held = null;
